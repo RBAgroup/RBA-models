@@ -1,4 +1,4 @@
-# Bacterial RBA models
+# RBA models
 
 This repository stores the RBA models of:
 - *Bacillus subtilis 168* WT strain

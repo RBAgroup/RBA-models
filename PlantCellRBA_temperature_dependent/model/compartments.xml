@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version 3.0 with RBAML version 2-->
+<!--Model: Arabidopsis thaliana (temperature dependent), Organism/Tissue: Arabidopsis thaliana Col-0 (generic cell), Taxon-ID: 3702-->
+<!--Authored by: Anne Goelzer (INRAE)-->
+<!--Copyright of: Copyright (c) 2026-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBACompartments>
+  <listOfCompartments>
+    <compartment id="Nucleus_membrane" isExternal="false"/>
+    <compartment id="Golgi_apparatus" isExternal="false"/>
+    <compartment id="Peroxisome" isExternal="false"/>
+    <compartment id="Peroxisome_membrane" isExternal="false"/>
+    <compartment id="Nucleus" isExternal="false"/>
+    <compartment id="Secreted" isExternal="false"/>
+    <compartment id="Endoplasmic_reticulum" isExternal="false"/>
+    <compartment id="Mitochondrion_outer_membrane" isExternal="false"/>
+    <compartment id="Golgi_apparatus_membrane" isExternal="false"/>
+    <compartment id="Thylakoid_lumen" isExternal="false"/>
+    <compartment id="Plastid_membrane" isExternal="false"/>
+    <compartment id="Mitochondrion_matrix" isExternal="false"/>
+    <compartment id="Plastid" isExternal="false"/>
+    <compartment id="Thylakoid_membrane" isExternal="false"/>
+    <compartment id="Vacuole_membrane" isExternal="false"/>
+    <compartment id="Mitochondrion_inner_membrane" isExternal="false"/>
+    <compartment id="Cell_membrane" isExternal="false"/>
+    <compartment id="Endoplasmic_reticulum_membrane" isExternal="false"/>
+    <compartment id="Cytoplasm" isExternal="false"/>
+    <compartment id="Mitochondrion_intermembrane_space" isExternal="false"/>
+    <compartment id="Vacuole" isExternal="false"/>
+  </listOfCompartments>
+</RBACompartments>

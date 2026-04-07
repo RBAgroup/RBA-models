@@ -1,0 +1,63 @@
+DATA LOCATION	RBA LOCATION	DATA TYPE
+x	Peroxisome	SBML
+n	Nucleus	SBML
+m	Mitochondrion_matrix	SBML
+l	Thylakoid_lumen	SBML
+i , m	Mitochondrion_inner_membrane	SBML
+i	Mitochondrion_intermembrane_space	SBML
+h , l	Thylakoid_membrane	SBML
+h	Plastid	SBML
+e	Secreted	SBML
+c , x	Peroxisome_membrane	SBML
+c , m	Mitochondrion_inner_membrane	SBML
+c , h	Plastid_membrane	SBML
+c , e	Cell_membrane	SBML
+c	Cytoplasm	SBML
+Plastid_membrane	Plastid_membrane	FASTA MACHINERY
+Plastid	Plastid	FASTA MACHINERY
+Nucleus_membrane	Nucleus_membrane	FASTA MACHINERY
+Nucleus	Nucleus	FASTA MACHINERY
+Mitochondrion_outer_membrane	Mitochondrion_outer_membrane	FASTA MACHINERY
+Mitochondrion_matrix	Mitochondrion_matrix	FASTA MACHINERY
+Mitochondrion_intermembrane_space	Mitochondrion_intermembrane_space	FASTA MACHINERY
+Mitochondrion_inner_membrane	Mitochondrion_inner_membrane	FASTA MACHINERY
+Cytoplasm	Cytoplasm	FASTA MACHINERY
+Vacuole_membrane	Vacuole_membrane	ANNOTATION PROTEOME
+Vacuole	Vacuole	ANNOTATION PROTEOME
+Trans-golgi_network	Golgi_apparatus	ANNOTATION PROTEOME
+Stromal_side	Cytoplasm	ANNOTATION PROTEOME
+Plastoglobule	Thylakoid_membrane	ANNOTATION PROTEOME
+Plastid_stroma	Plastid	ANNOTATION PROTEOME
+Peroxisome_membrane	Peroxisome_membrane	ANNOTATION PROTEOME
+Peroxisome_matrix	Peroxisome	ANNOTATION PROTEOME
+Peroxisome	Peroxisome	ANNOTATION PROTEOME
+Mitochondrion_membrane	Mitochondrion_inner_membrane	ANNOTATION PROTEOME
+Mitochondrion	Mitochondrion_matrix	ANNOTATION PROTEOME
+Microsome_membrane	Cytoplasm	ANNOTATION PROTEOME
+Membrane	Cell_membrane	ANNOTATION PROTEOME
+Matrix_side	Cytoplasm	ANNOTATION PROTEOME
+Lumenal_side	Cytoplasm	ANNOTATION PROTEOME
+Lipid-anchor	Cytoplasm	ANNOTATION PROTEOME
+Intermembrane_side	Cell_membrane	ANNOTATION PROTEOME
+Golgi_apparatus_membrane	Golgi_apparatus_membrane	ANNOTATION PROTEOME
+Golgi_apparatus	Golgi_apparatus	ANNOTATION PROTEOME
+Glyoxysome	Peroxisome	ANNOTATION PROTEOME
+Endoplasmic_reticulum_membrane	Endoplasmic_reticulum_membrane	ANNOTATION PROTEOME
+Endoplasmic_reticulum	Endoplasmic_reticulum	ANNOTATION PROTEOME
+Endomembrane_system	Cytoplasm	ANNOTATION PROTEOME
+Early_endosome	Cell_membrane	ANNOTATION PROTEOME
+Cytosol	Cytoplasm	ANNOTATION PROTEOME
+Cytoplasmic_side	Cytoplasm	ANNOTATION PROTEOME
+Chromoplast	Plastid	ANNOTATION PROTEOME
+Chloroplast_thylakoid_membrane	Thylakoid_membrane	ANNOTATION PROTEOME
+Chloroplast_thylakoid_lumen	Thylakoid_lumen	ANNOTATION PROTEOME
+Chloroplast_stroma	Plastid	ANNOTATION PROTEOME
+Chloroplast_outer_membrane	Plastid_membrane	ANNOTATION PROTEOME
+Chloroplast_nucleoid	Plastid	ANNOTATION PROTEOME
+Chloroplast_membrane	Plastid_membrane	ANNOTATION PROTEOME
+Chloroplast_inner_membrane	Plastid_membrane	ANNOTATION PROTEOME
+Chloroplast_envelope	Plastid_membrane	ANNOTATION PROTEOME
+Chloroplast	Plastid	ANNOTATION PROTEOME
+Cell_wall	Secreted	ANNOTATION PROTEOME
+Cell_membrane	Cell_membrane	ANNOTATION PROTEOME
+Amyloplast	Cytoplasm	ANNOTATION PROTEOME

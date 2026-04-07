@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version 3.0 with RBAML version 2-->
+<!--Model: Arabidopsis thaliana, Organism/Tissue: Arabidopsis thaliana Col-0 (generic cell), Taxon-ID: 3702-->
+<!--Authored by: Anne Goelzer (INRAE)-->
+<!--Copyright of: Copyright (c) 2026-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBARnas>
+  <listOfComponents>
+    <component id="A" name="Adenosine residue" type="Nucleotide" weight="2.9036"/>
+    <component id="C" name="Cytosine residue" type="Nucleotide" weight="2.7017"/>
+    <component id="G" name="Guanine residue" type="Nucleotide" weight="3.0382"/>
+    <component id="U" name="Uramine residue" type="Nucleotide" weight="2.7102"/>
+  </listOfComponents>
+  <listOfMacromolecules>
+    <macromolecule id="M_trnaala_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="23.0"/>
+        <componentReference component="U" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaarg_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="23.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaasn_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="16.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="21.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaasp_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="23.0"/>
+        <componentReference component="G" stoichiometry="25.0"/>
+        <componentReference component="U" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnacys_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="13.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnagln_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="13.0"/>
+        <componentReference component="C" stoichiometry="21.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaglu_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="13.0"/>
+        <componentReference component="C" stoichiometry="23.0"/>
+        <componentReference component="G" stoichiometry="22.0"/>
+        <componentReference component="U" stoichiometry="18.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnagly_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="21.0"/>
+        <componentReference component="G" stoichiometry="18.0"/>
+        <componentReference component="U" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnahis_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="23.0"/>
+        <componentReference component="U" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaile_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="21.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="17.0"/>
+        <componentReference component="U" stoichiometry="20.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaleu_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="23.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="22.0"/>
+        <componentReference component="U" stoichiometry="23.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnalys_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="20.0"/>
+        <componentReference component="U" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnamet_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="17.0"/>
+        <componentReference component="C" stoichiometry="21.0"/>
+        <componentReference component="G" stoichiometry="22.0"/>
+        <componentReference component="U" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaphe_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="19.0"/>
+        <componentReference component="C" stoichiometry="18.0"/>
+        <componentReference component="G" stoichiometry="21.0"/>
+        <componentReference component="U" stoichiometry="18.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnapro_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="17.0"/>
+        <componentReference component="C" stoichiometry="17.0"/>
+        <componentReference component="G" stoichiometry="21.0"/>
+        <componentReference component="U" stoichiometry="22.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaser_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="24.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="25.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnathr_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="21.0"/>
+        <componentReference component="U" stoichiometry="20.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnatrp_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="20.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="18.0"/>
+        <componentReference component="U" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnatyr_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="19.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="26.0"/>
+        <componentReference component="U" stoichiometry="20.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaval_h" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="18.0"/>
+        <componentReference component="C" stoichiometry="21.0"/>
+        <componentReference component="G" stoichiometry="20.0"/>
+        <componentReference component="U" stoichiometry="18.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaasn_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="16.0"/>
+        <componentReference component="G" stoichiometry="23.0"/>
+        <componentReference component="U" stoichiometry="21.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaasp_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="24.0"/>
+        <componentReference component="G" stoichiometry="25.0"/>
+        <componentReference component="U" stoichiometry="14.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnacys_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="19.0"/>
+        <componentReference component="C" stoichiometry="18.0"/>
+        <componentReference component="G" stoichiometry="18.0"/>
+        <componentReference component="U" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnagln_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="18.0"/>
+        <componentReference component="C" stoichiometry="17.0"/>
+        <componentReference component="G" stoichiometry="20.0"/>
+        <componentReference component="U" stoichiometry="20.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaglu_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="19.0"/>
+        <componentReference component="U" stoichiometry="22.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnagly_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="18.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="20.0"/>
+        <componentReference component="U" stoichiometry="18.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnahis_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="21.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaile_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="20.0"/>
+        <componentReference component="C" stoichiometry="16.0"/>
+        <componentReference component="G" stoichiometry="17.0"/>
+        <componentReference component="U" stoichiometry="24.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnalys_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="17.0"/>
+        <componentReference component="C" stoichiometry="17.0"/>
+        <componentReference component="G" stoichiometry="20.0"/>
+        <componentReference component="U" stoichiometry="22.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnamet_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="20.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="20.0"/>
+        <componentReference component="U" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnapro_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="20.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaser_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="23.0"/>
+        <componentReference component="C" stoichiometry="18.0"/>
+        <componentReference component="G" stoichiometry="25.0"/>
+        <componentReference component="U" stoichiometry="25.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnatrp_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="19.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="19.0"/>
+        <componentReference component="U" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnatyr_m" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="20.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="22.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaala_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaarg_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="18.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaasn_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="23.0"/>
+        <componentReference component="U" stoichiometry="20.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaasp_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="12.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnacys_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="21.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnagln_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="13.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="22.0"/>
+        <componentReference component="U" stoichiometry="21.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaglu_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="24.0"/>
+        <componentReference component="G" stoichiometry="23.0"/>
+        <componentReference component="U" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnagly_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="18.0"/>
+        <componentReference component="C" stoichiometry="23.0"/>
+        <componentReference component="G" stoichiometry="19.0"/>
+        <componentReference component="U" stoichiometry="15.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnahis_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="18.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaile_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="18.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="23.0"/>
+        <componentReference component="U" stoichiometry="16.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaleu_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="19.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="27.0"/>
+        <componentReference component="U" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnalys_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="11.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="26.0"/>
+        <componentReference component="U" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnamet_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="13.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="25.0"/>
+        <componentReference component="U" stoichiometry="17.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaphe_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="17.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="25.0"/>
+        <componentReference component="U" stoichiometry="14.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnapro_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="11.0"/>
+        <componentReference component="C" stoichiometry="18.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="22.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaser_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="27.0"/>
+        <componentReference component="U" stoichiometry="20.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnathr_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="18.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="21.0"/>
+        <componentReference component="U" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnatrp_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="14.0"/>
+        <componentReference component="C" stoichiometry="19.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="18.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnatyr_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="18.0"/>
+        <componentReference component="G" stoichiometry="24.0"/>
+        <componentReference component="U" stoichiometry="18.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trnaval_n" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="16.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="22.0"/>
+        <componentReference component="U" stoichiometry="19.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="mrna_loc_Nucleus" compartment="Nucleus" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="0.2841"/>
+        <componentReference component="C" stoichiometry="0.2294"/>
+        <componentReference component="G" stoichiometry="0.2026"/>
+        <componentReference component="U" stoichiometry="0.2839"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="mrna_loc_Mitochondrion_matrix" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="0.2841"/>
+        <componentReference component="C" stoichiometry="0.2294"/>
+        <componentReference component="G" stoichiometry="0.2026"/>
+        <componentReference component="U" stoichiometry="0.2839"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="mrna_loc_Plastid" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="0.2841"/>
+        <componentReference component="C" stoichiometry="0.2294"/>
+        <componentReference component="G" stoichiometry="0.2026"/>
+        <componentReference component="U" stoichiometry="0.2839"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="rrna_18S_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="453.0"/>
+        <componentReference component="C" stoichiometry="395.0"/>
+        <componentReference component="G" stoichiometry="496.0"/>
+        <componentReference component="U" stoichiometry="464.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRNA23S_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="739.0"/>
+        <componentReference component="C" stoichiometry="661.0"/>
+        <componentReference component="G" stoichiometry="889.0"/>
+        <componentReference component="U" stoichiometry="521.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRNA4_DASH_5S_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="29.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="32.0"/>
+        <componentReference component="U" stoichiometry="22.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRNA5S_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="32.0"/>
+        <componentReference component="C" stoichiometry="28.0"/>
+        <componentReference component="G" stoichiometry="34.0"/>
+        <componentReference component="U" stoichiometry="27.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRNA16S_loc_Plastid" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="366.0"/>
+        <componentReference component="C" stoichiometry="360.0"/>
+        <componentReference component="G" stoichiometry="482.0"/>
+        <componentReference component="U" stoichiometry="283.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRNA23S_loc_Plastid" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="739.0"/>
+        <componentReference component="C" stoichiometry="661.0"/>
+        <componentReference component="G" stoichiometry="889.0"/>
+        <componentReference component="U" stoichiometry="521.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRNA4_DASH_5S_loc_Plastid" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="29.0"/>
+        <componentReference component="C" stoichiometry="20.0"/>
+        <componentReference component="G" stoichiometry="32.0"/>
+        <componentReference component="U" stoichiometry="22.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRNA5S_loc_Plastid" compartment="Plastid" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="32.0"/>
+        <componentReference component="C" stoichiometry="28.0"/>
+        <componentReference component="G" stoichiometry="34.0"/>
+        <componentReference component="U" stoichiometry="27.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRN26S_loc_Mitochondrion_matrix" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="673.0"/>
+        <componentReference component="C" stoichiometry="593.0"/>
+        <componentReference component="G" stoichiometry="725.0"/>
+        <componentReference component="U" stoichiometry="577.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRN5S_loc_Mitochondrion_matrix" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="30.0"/>
+        <componentReference component="C" stoichiometry="31.0"/>
+        <componentReference component="G" stoichiometry="32.0"/>
+        <componentReference component="U" stoichiometry="25.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="RRN18S_loc_Mitochondrion_matrix" compartment="Mitochondrion_matrix" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="501.0"/>
+        <componentReference component="C" stoichiometry="441.0"/>
+        <componentReference component="G" stoichiometry="593.0"/>
+        <componentReference component="U" stoichiometry="400.0"/>
+      </composition>
+    </macromolecule>
+  </listOfMacromolecules>
+</RBARnas>

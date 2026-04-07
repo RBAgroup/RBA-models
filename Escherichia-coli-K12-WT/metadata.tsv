@@ -1,0 +1,15 @@
+Date_first_model_generation	N/A
+Date_last_model_generation	2019-09-01 00:00:00
+RBApy_version_model_generation	N/A
+Date_download_proteome_annotation	2019-09-01 00:00:00
+Date_of_model_update_to_v3_or_higher	2026-03-31 15:30:20.247532
+RBApy_version_model_update	3.0
+RBAML_version	2
+Model	Escherichia coli K12 WT
+Organism/Tissue	Escherichia coli K12
+Taxon_ID	83333
+Author(s)	Ana Bulovic (INRAE)
+Copyright_holder	Copyright (c) 2019
+License	cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)
+Localised_Macromolecules	True
+Macromolecule_location_separator	_loc_

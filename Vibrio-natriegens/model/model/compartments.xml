@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Vibrio natriegens, Organism/Tissue: Vibrio natriegens, Taxon-ID: 691-->
+<!--Authored by: Lucas Coppens, Tanya Tschirhart, Dagmar H Leary, Sophie M Colston, Jaimee R Compton, William Judson Hervey IV, Karl L Dana, Gary J Vora, Sergio Bordel & Rodrigo Ledesma‐Amaro-->
+<!--Copyright of: Copyright (c) 2023-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBACompartments>
+  <listOfCompartments>
+    <compartment id="Secreted" isExternal="true"/>
+    <compartment id="Cell_membrane" upperBound="Cell_membrane_density" isExternal="false"/>
+    <compartment id="Cytoplasm" upperBound="Cytoplasm_density" isExternal="false"/>
+  </listOfCompartments>
+</RBACompartments>

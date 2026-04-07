@@ -1,0 +1,15 @@
+Date_first_model_generation	N/A
+Date_last_model_generation	2021-10-20 00:00:00
+RBApy_version_model_generation	N/A
+Date_download_proteome_annotation	2021-10-20 00:00:00
+Date_of_model_update_to_v3_or_higher	2026-03-31 15:34:29.440098
+RBApy_version_model_update	3.0
+RBAML_version	2
+Model	Ralstonia eutropha H16
+Organism/Tissue	Ralstonia eutropha
+Taxon_ID	381666
+Author(s)	Michael Jahn
+Copyright_holder	Copyright (c) 2021-2026
+License	cc-by (https://creativecommons.org/licenses/by/4.0/deed.en)
+Localised_Macromolecules	True
+Macromolecule_location_separator	_loc_

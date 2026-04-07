@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Escherichia coli K12 WT (temperature dependent), Organism/Tissue: Escherichia coli K12, Taxon-ID: 83333-->
+<!--Authored by: Oliver Bodeit (INRAE)-->
+<!--Copyright of: Copyright (c) 2026-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBAMacromolecules>
+  <listOfComponents/>
+  <listOfMacromolecules/>
+</RBAMacromolecules>

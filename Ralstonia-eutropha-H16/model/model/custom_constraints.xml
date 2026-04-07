@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Ralstonia eutropha H16, Organism/Tissue: Ralstonia eutropha, Taxon-ID: 381666-->
+<!--Authored by: Michael Jahn-->
+<!--Copyright of: Copyright (c) 2021-2026-->
+<!--License: cc-by (https://creativecommons.org/licenses/by/4.0/deed.en)-->
+<?rbaml version="2"?>
+<RBACustomConstraints>
+  <listOfConstraints>
+    <constraint id="Global_occupation" action="add">
+      <constraintDefinition upperBound="0.0">
+        <listOfVariableReferences>
+          <variableReference variable="Cell_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Cytoplasm_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+        </listOfVariableReferences>
+        <listOfParameterReferences>
+          <parameterReference parameter="amino_acid_concentration" constant_coefficient="-1.0" multiplied_with_growth_rate="false"/>
+        </listOfParameterReferences>
+      </constraintDefinition>
+    </constraint>
+  </listOfConstraints>
+</RBACustomConstraints>

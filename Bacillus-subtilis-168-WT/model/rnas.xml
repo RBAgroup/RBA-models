@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Bacillus subtilis 168 WT, Organism/Tissue: Bacillus subtilis 168, Taxon-ID: 224308-->
+<!--Authored by: Anne Goelzer (INRAE)-->
+<!--Copyright of: Copyright (c) 2019-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBARnas>
+  <listOfComponents>
+    <component id="A" name="Adenosine residue" type="Nucleotide" weight="2.9036"/>
+    <component id="C" name="Cytosine residue" type="Nucleotide" weight="2.7017"/>
+    <component id="G" name="Guanine residue" type="Nucleotide" weight="3.0382"/>
+    <component id="U" name="Uramine residue" type="Nucleotide" weight="2.7102"/>
+  </listOfComponents>
+  <listOfMacromolecules>
+    <macromolecule id="M_trna_c" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="15.6"/>
+        <componentReference component="U" stoichiometry="16.866666666666667"/>
+        <componentReference component="C" stoichiometry="21.6"/>
+        <componentReference component="G" stoichiometry="23.733333333333334"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="trnasecys_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="13.0"/>
+        <componentReference component="U" stoichiometry="20.0"/>
+        <componentReference component="C" stoichiometry="27.0"/>
+        <componentReference component="G" stoichiometry="31.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="M_trna2_c" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="18.2"/>
+        <componentReference component="U" stoichiometry="16.4"/>
+        <componentReference component="C" stoichiometry="22.0"/>
+        <componentReference component="G" stoichiometry="20.8"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="mrna_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="G" stoichiometry="0.2171"/>
+        <componentReference component="U" stoichiometry="0.283"/>
+        <componentReference component="C" stoichiometry="0.2181"/>
+        <componentReference component="A" stoichiometry="0.2818"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="rrnO-16S_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="G" stoichiometry="491.0"/>
+        <componentReference component="U" stoichiometry="315.0"/>
+        <componentReference component="C" stoichiometry="365.0"/>
+        <componentReference component="A" stoichiometry="382.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="rrnO-23S_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="G" stoichiometry="920.0"/>
+        <componentReference component="U" stoichiometry="571.0"/>
+        <componentReference component="C" stoichiometry="658.0"/>
+        <componentReference component="A" stoichiometry="779.0"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="rrnO-5S_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_rna_half_life">
+      <composition>
+        <componentReference component="G" stoichiometry="35.0"/>
+        <componentReference component="U" stoichiometry="23.0"/>
+        <componentReference component="C" stoichiometry="31.0"/>
+        <componentReference component="A" stoichiometry="23.0"/>
+      </composition>
+    </macromolecule>
+  </listOfMacromolecules>
+</RBARnas>

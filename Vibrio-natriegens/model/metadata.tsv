@@ -1,0 +1,15 @@
+Date_first_model_generation	N/A
+Date_last_model_generation	2023-02-27 00:00:00
+RBApy_version_model_generation	N/A
+Date_download_proteome_annotation	2023-02-27 00:00:00
+Date_of_model_update_to_v3_or_higher	2026-03-31 15:31:50.647447
+RBApy_version_model_update	3.0
+RBAML_version	2
+Model	Vibrio natriegens
+Organism/Tissue	Vibrio natriegens
+Taxon_ID	691
+Author(s)	Lucas Coppens, Tanya Tschirhart, Dagmar H Leary, Sophie M Colston, Jaimee R Compton, William Judson Hervey IV, Karl L Dana, Gary J Vora, Sergio Bordel & Rodrigo Ledesma‐Amaro
+Copyright_holder	Copyright (c) 2023
+License	cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)
+Localised_Macromolecules	True
+Macromolecule_location_separator	_loc_

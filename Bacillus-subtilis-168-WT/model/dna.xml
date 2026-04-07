@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Bacillus subtilis 168 WT, Organism/Tissue: Bacillus subtilis 168, Taxon-ID: 224308-->
+<!--Authored by: Anne Goelzer (INRAE)-->
+<!--Copyright of: Copyright (c) 2019-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBADna>
+  <listOfComponents>
+    <component id="A" name="Adenosine residue" type="Nucleotide" weight="0"/>
+    <component id="C" name="Cytosine residue" type="Nucleotide" weight="0"/>
+    <component id="G" name="Guanine residue" type="Nucleotide" weight="0"/>
+    <component id="T" name="Thymine residue" type="Nucleotide" weight="0"/>
+  </listOfComponents>
+  <listOfMacromolecules>
+    <macromolecule id="dna_loc_Cytoplasm" compartment="Cytoplasm" half_life="default_dna_half_life">
+      <composition>
+        <componentReference component="G" stoichiometry="0.2171"/>
+        <componentReference component="T" stoichiometry="0.283"/>
+        <componentReference component="C" stoichiometry="0.2181"/>
+        <componentReference component="A" stoichiometry="0.2818"/>
+      </composition>
+    </macromolecule>
+  </listOfMacromolecules>
+</RBADna>

@@ -1,0 +1,2094 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Bacillus subtilis 168 WT, Organism/Tissue: Bacillus subtilis 168, Taxon-ID: 224308-->
+<!--Authored by: Anne Goelzer (INRAE)-->
+<!--Copyright of: Copyright (c) 2019-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBAProcesses>
+  <listOfProcesses>
+    <process id="P_TA" name="Translation">
+      <machinery>
+        <machineryComposition>
+          <listOfReactants>
+            <speciesReference species="P46899_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P26908_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P70974_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P42060_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P12877_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P04969_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P81101_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21465_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="rrnO-5S_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="O31742_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P05657_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P20278_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P42921_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21473_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21475_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P20458_loc_Cytoplasm" stoichiometry="0.25"/>
+            <speciesReference species="P55872_loc_Cytoplasm" stoichiometry="0.2"/>
+            <speciesReference species="P21469_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P55874_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P55873_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="O34687_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="Q06796_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P49778_loc_Cytoplasm" stoichiometry="0.8"/>
+            <speciesReference species="P21478_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P42924_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P28367_loc_Cytoplasm" stoichiometry="0.25"/>
+            <speciesReference species="P02394_loc_Cytoplasm" stoichiometry="4.0"/>
+            <speciesReference species="P21472_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P42923_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P12873_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P45872_loc_Cytoplasm" stoichiometry="0.25"/>
+            <speciesReference species="P37437_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="O34967_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P12875_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P14577_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="rrnO-23S_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P37807_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="Q03223_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="Q06798_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P42919_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P33166_loc_Cytoplasm" stoichiometry="5.4"/>
+            <speciesReference species="P21477_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P05647_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P80700_loc_Cytoplasm" stoichiometry="0.18"/>
+            <speciesReference species="P20277_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21467_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21476_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P46898_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21466_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P12878_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21464_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P19947_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21470_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P37949_loc_Cell_membrane" stoichiometry="0.25"/>
+            <speciesReference species="P20282_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P17889_loc_Cytoplasm" stoichiometry="0.3"/>
+            <speciesReference species="P21471_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21474_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P21468_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P19946_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P12874_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="Q06797_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P0CI78_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="rrnO-16S_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P80868_loc_Cytoplasm" stoichiometry="0.8"/>
+            <speciesReference species="P42920_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P12879_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </machineryComposition>
+        <capacity value="ribosome_capacity"/>
+      </machinery>
+      <processings>
+        <listOfProductions>
+          <processing processingMap="translation" set="protein">
+            <listOfInputs>
+              <speciesReference species="BSU29680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39060_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23580_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07500_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15800_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03990_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02290_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU00900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU40550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32940_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27330_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05830_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37050_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09280_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU30810_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06370_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13230_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU12290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03600_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33930_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03300_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32750_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU40060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24040_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39710_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU17000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29370_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09840_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30750_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38540_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU21770_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16100_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36850_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32170_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03060_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07700_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36830_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38060_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU06440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29990_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35720_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28440_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15190_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39390_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU18670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23380_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15600_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24030_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13220_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38040_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02860_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11880_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24340_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06360_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30740_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU00770_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09540_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38710_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02340_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU31600_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14920_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU13910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU04360_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11240_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14870_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU34900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35760_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU19630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38740_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14910_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00380_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15230_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32480_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU19360_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23130_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU04640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32450_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31150_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10220_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13300_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU16750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25160_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15720_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38750_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU17370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10370_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30230_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15480_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU34880_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16770_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02350_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23140_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU25270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30800_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02850_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU07800_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU18070_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU35700_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38730_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23050_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31640_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU02870_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22600_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01680_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15590_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14930_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU40070_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU18450_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38280_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36860_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU24570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00110_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30320_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35710_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29220_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29880_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28390_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07490_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37760_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23980_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU17380_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU34910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14900_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU27060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36820_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38510_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29140_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33960_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27450_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28450_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU30830_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27440_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU35740_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU40340_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03210_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13580_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30760_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37320_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU00500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07520_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU25190_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11210_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU19370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38140_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22410_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22650_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36810_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU40190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38050_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15850_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14400_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11230_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11710_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36800_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23850_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10170_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU21920_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13890_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03610_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU02270_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU08080_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10010_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU31610_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU04570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU04470_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36590_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14210_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39400_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32410_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27850_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39410_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU09410_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35960_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU13550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23800_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15580_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU27460_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29350_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU16550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30220_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32470_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31650_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU06430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16990_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06470_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00930_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06450_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01630_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39360_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28140_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22540_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU24990_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU31980_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35940_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32730_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU08200_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38760_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29340_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11340_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28300_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08650_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU04620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27050_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38170_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU30240_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03981_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27430_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU01370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24350_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35880_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24960_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU21870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32240_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU18440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01620_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU17390_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00140_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU12020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31350_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14890_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28170_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31960_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06720_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15540_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30770_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU07810_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU12010_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU16760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU21910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31990_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15220_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU10020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU18000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23960_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14880_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38590_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09300_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37110_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13590_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37270_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU13180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU21820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24980_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28730_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36470_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU33910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30210_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03050_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU17460_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33940_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU19310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13600_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36510_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24850_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24050_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24950_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU13210_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU24310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13240_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36650_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35950_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU31620_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06480_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01610_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU10140_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27810_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14600_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35530_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22060_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU06150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38580_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14390_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29450_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU34860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25300_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11330_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14580_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13110_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30540_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31580_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU08180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32740_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU34920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07920_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU00120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07510_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00740_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13170_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07840_loc_Secreted" stoichiometry="1.0"/>
+              <speciesReference species="BSU40420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29210_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38150_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39720_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05810_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31930_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32430_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23150_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00940_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27410_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31660_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU07610_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03320_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22740_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22360_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23080_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03330_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28950_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31630_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23970_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14590_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38490_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38160_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02420_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29470_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28800_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25580_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22830_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36870_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU06160_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39380_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24970_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU35930_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02390_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27040_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU17890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01770_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00460_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU40320_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU04560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32460_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29360_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03590_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28740_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU34890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31400_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28080_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU12840_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22550_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11220_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29380_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37250_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36840_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU33040_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37280_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU21810_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU34870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31970_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22710_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39350_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36710_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03220_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38770_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38260_loc_Secreted" stoichiometry="1.0"/>
+              <speciesReference species="BSU11680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09460_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39740_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16540_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37330_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="average_protein_loc_Secreted" stoichiometry="1.0"/>
+              <speciesReference species="average_protein_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="average_protein_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21464_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21465_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21466_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21467_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21468_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21469_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12879_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21470_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21471_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P04969_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21472_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P20282_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12878_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21473_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21474_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12874_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21475_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21476_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21477_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21478_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="Q06797_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42919_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42921_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12877_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P46898_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P02394_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P37437_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42923_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="Q06796_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P70974_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12875_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P19946_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P14577_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P20277_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P46899_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="O31742_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P55873_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P26908_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42924_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P0CI78_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P05657_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P37807_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12873_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P19947_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="Q03223_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="O34967_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="O34687_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="Q06798_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P05647_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P55874_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P20278_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P20458_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P17889_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P55872_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P80700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P33166_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P80868_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P49778_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P45872_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P28367_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P81101_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P37949_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="P80698_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P28598_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P28599_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P17820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P15874_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P17631_loc_Cytoplasm" stoichiometry="1.0"/>
+            </listOfInputs>
+          </processing>
+        </listOfProductions>
+      </processings>
+    </process>
+    <process id="P_CHP" name="Folding">
+      <machinery>
+        <machineryComposition>
+          <listOfReactants>
+            <speciesReference species="P28598_loc_Cytoplasm" stoichiometry="14.0"/>
+            <speciesReference species="P28599_loc_Cytoplasm" stoichiometry="7.0"/>
+            <speciesReference species="P80698_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P17820_loc_Cytoplasm" stoichiometry="1.0"/>
+            <speciesReference species="P17631_loc_Cytoplasm" stoichiometry="2.0"/>
+            <speciesReference species="P15874_loc_Cytoplasm" stoichiometry="2.0"/>
+          </listOfReactants>
+        </machineryComposition>
+        <capacity value="chaperone_efficiency_LM"/>
+      </machinery>
+      <processings>
+        <listOfProductions>
+          <processing processingMap="folding" set="protein">
+            <listOfInputs>
+              <speciesReference species="BSU29680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39060_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23580_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07500_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15800_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03990_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02290_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU00900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU40550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32940_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27330_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05830_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37050_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09280_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU30810_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06370_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13230_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU12290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03600_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33930_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03300_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32750_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU40060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24040_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39710_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU17000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29370_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09840_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30750_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38540_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU21770_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16100_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36850_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32170_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03060_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07700_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36830_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38060_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU06440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29990_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35720_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28440_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15190_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39390_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU18670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23380_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15600_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24030_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13220_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38040_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02860_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11880_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24340_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06360_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30740_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU00770_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09540_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38710_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02340_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU31600_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14920_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU13910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU04360_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11240_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14870_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU34900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35760_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU19630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38740_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14910_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00380_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15230_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32480_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU19360_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23130_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU04640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32450_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31150_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10220_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13300_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU16750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25160_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15720_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38750_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU17370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10370_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30230_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15480_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU34880_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16770_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02350_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23140_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU25270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30800_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02850_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU07800_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU18070_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU35700_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38730_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23050_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31640_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU02870_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22600_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01680_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15590_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14930_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU40070_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU18450_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38280_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36860_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU24570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00110_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30320_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35710_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29220_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29880_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28390_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07490_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37760_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23980_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU17380_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU34910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14900_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU27060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36820_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38510_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29140_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33960_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27450_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28450_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU30830_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27440_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU35740_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU40340_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03210_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13580_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30760_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37320_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU00500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07520_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU25190_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11210_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU19370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38140_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22410_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22650_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36810_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU40190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38050_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15850_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14400_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11230_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11710_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36800_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23850_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10170_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU21920_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13890_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03610_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU02270_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU08080_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU10010_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU31610_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU04570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU04470_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36590_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14210_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14630_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39400_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32410_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27850_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39410_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU09410_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35960_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU13550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23800_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15580_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU27460_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29350_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU16550_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30220_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32470_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31650_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU06430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16990_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06470_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00930_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06450_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01630_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39360_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28140_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22540_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU24990_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU31980_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35940_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32730_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU08200_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38760_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29340_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11340_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28300_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08650_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU04620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27050_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38170_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU30240_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03981_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32260_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27430_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU01370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24350_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35880_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24960_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU21870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32240_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU18440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01620_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU17390_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00140_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU12020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00730_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31350_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14890_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28170_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31960_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06720_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15540_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32130_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30770_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU07810_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU12010_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU16760_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU21910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31990_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15220_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU10020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU18000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23960_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36640_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14880_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38590_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09300_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37110_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13590_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37270_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU13180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU21820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24980_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28730_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36470_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU33910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38520_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30210_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03050_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU17460_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33940_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU19310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13600_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36510_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15200_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24850_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24050_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24950_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU13210_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU24310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13240_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36650_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35950_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU31620_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06480_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01610_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU10140_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27810_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14600_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16090_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35530_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU32250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22060_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU06150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38570_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38580_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28310_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14390_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29450_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU34860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25300_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15910_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU08820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11330_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14580_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35020_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU33430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13110_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03150_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30540_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31580_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU08180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32740_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU34920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37780_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07920_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU00120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37120_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03290_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07510_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00740_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13170_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU07840_loc_Secreted" stoichiometry="1.0"/>
+              <speciesReference species="BSU40420_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29210_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38150_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39720_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05810_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23250_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31930_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32430_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23150_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU15890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29440_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00940_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27410_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31660_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU07610_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03320_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29190_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22740_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22360_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23080_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03330_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28950_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31630_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU23970_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU14590_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38490_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38160_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02420_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU29470_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22750_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28800_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU25580_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22830_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06530_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36870_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU06160_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39380_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24970_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU35930_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU02390_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU27040_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU17890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU01770_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00460_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00510_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU11010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU40320_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU04560_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32460_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU00790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29360_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU03590_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU28790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28270_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU24280_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28740_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU34890_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31400_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28080_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU32500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU35010_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU06690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37500_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU12840_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU22550_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU11220_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29380_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37250_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36840_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU33040_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30790_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37280_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU21810_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU05820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU15490_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39860_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU34870_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22690_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU30670_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13900_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU31970_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22710_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU28430_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU13620_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU23070_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU39350_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU36710_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU29180_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU03220_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU38770_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU36000_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU14610_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU38260_loc_Secreted" stoichiometry="1.0"/>
+              <speciesReference species="BSU11680_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU22370_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU37660_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU09460_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU39740_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="BSU16540_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="BSU37330_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="average_protein_loc_Secreted" stoichiometry="1.0"/>
+              <speciesReference species="average_protein_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="average_protein_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21464_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21465_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21466_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21467_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21468_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21469_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12879_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21470_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21471_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P04969_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21472_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P20282_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12878_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21473_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21474_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12874_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21475_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21476_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21477_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P21478_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="Q06797_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42919_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42920_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42921_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12877_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P46898_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P02394_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P37437_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42923_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="Q06796_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P70974_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12875_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P19946_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P14577_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P20277_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P46899_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="O31742_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P55873_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P26908_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42060_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P42924_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P0CI78_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P05657_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P37807_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P12873_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P19947_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="Q03223_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="O34967_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="O34687_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="Q06798_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P05647_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P55874_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P20278_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P20458_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P17889_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P55872_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P80700_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P33166_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P80868_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P49778_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P45872_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P28367_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P81101_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P37949_loc_Cell_membrane" stoichiometry="1.0"/>
+              <speciesReference species="P80698_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P28598_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P28599_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P17820_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P15874_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="P17631_loc_Cytoplasm" stoichiometry="1.0"/>
+            </listOfInputs>
+          </processing>
+        </listOfProductions>
+      </processings>
+    </process>
+    <process id="P_TSC" name="Transcription">
+      <processings>
+        <listOfProductions>
+          <processing processingMap="transcription" set="rna">
+            <listOfInputs>
+              <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+              <speciesReference species="trnasecys_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="M_trna2_c" stoichiometry="1.0"/>
+              <speciesReference species="mrna_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="rrnO-16S_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="rrnO-23S_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="rrnO-5S_loc_Cytoplasm" stoichiometry="1.0"/>
+            </listOfInputs>
+          </processing>
+        </listOfProductions>
+      </processings>
+    </process>
+    <process id="P_REP" name="Replication">
+      <processings>
+        <listOfProductions>
+          <processing processingMap="replication" set="dna">
+            <listOfInputs>
+              <speciesReference species="dna_loc_Cytoplasm" stoichiometry="1.0"/>
+            </listOfInputs>
+          </processing>
+        </listOfProductions>
+      </processings>
+    </process>
+    <process id="P_RNADEG" name="RNA degradation">
+      <processings>
+        <listOfDegradations>
+          <processing processingMap="rna_degradation" set="rna">
+            <listOfInputs>
+              <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+              <speciesReference species="trnasecys_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="M_trna2_c" stoichiometry="1.0"/>
+              <speciesReference species="mrna_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="rrnO-16S_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="rrnO-23S_loc_Cytoplasm" stoichiometry="1.0"/>
+              <speciesReference species="rrnO-5S_loc_Cytoplasm" stoichiometry="1.0"/>
+            </listOfInputs>
+          </processing>
+        </listOfDegradations>
+      </processings>
+    </process>
+    <process id="test_process_0" name="Test process"/>
+    <process id="test_process_1" name="Test process"/>
+    <process id="test_process_2" name="Test process"/>
+  </listOfProcesses>
+  <listOfProcessingMaps>
+    <processingMap id="translation">
+      <constantProcessing>
+        <listOfReactants>
+          <speciesReference species="M_tfmet_c" stoichiometry="1.0"/>
+          <speciesReference species="M_gtp_c" stoichiometry="1.0"/>
+          <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+          <speciesReference species="M_fmet_c" stoichiometry="1.0"/>
+          <speciesReference species="M_gdp_c" stoichiometry="1.0"/>
+          <speciesReference species="M_p_c" stoichiometry="1.0"/>
+          <speciesReference species="M_h_c" stoichiometry="1.0"/>
+        </listOfProducts>
+      </constantProcessing>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tala_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="C" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tcys_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="D" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tasp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="E" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tglu_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="F" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tphe_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="G" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tgly_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="H" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_this_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="I" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tile_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="K" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tlys_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="L" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tleu_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="M" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tmet_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="N" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tasn_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="P" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tpro_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="Q" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tgln_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="R" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_targ_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="S" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tser_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="T" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tthr_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna2_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="V" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_tval_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="W" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_ttrp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="Y" machineryCost="1.0">
+          <listOfReactants>
+            <speciesReference species="M_ttyr_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gtp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="2.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_trna_c" stoichiometry="1.0"/>
+            <speciesReference species="M_gdp_c" stoichiometry="2.0"/>
+            <speciesReference species="M_p_c" stoichiometry="2.0"/>
+            <speciesReference species="M_h_c" stoichiometry="2.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:18420" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_mg2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:597326" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_py5p_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:15361" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_pyr_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:29035" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_mn2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:57692" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fad_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:58210" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fmn_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:57783" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_nadph_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:49883" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:60052" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_sheme_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:58937" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_tpp_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:60342" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:49601" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:29103" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_k_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:29105" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_zn2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:60539" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:83088" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:28938" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:71302" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:29033" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:60344" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_hemeb_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:62814" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_hemed_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:17544" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:29108" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_ca2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:21137" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:29036" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_cu2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:30413" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_hemeb_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:48828" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:60240" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:57540" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_nad_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:24875" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fe2_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:47942" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:57586" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_bio_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:25516" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:57925" machineryCost="0.0"/>
+        <componentProcessing component="CHEBI:60532" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_hemea_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:57618" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_fmn_c" stoichiometry="1.0"/>
+          </listOfReactants>
+        </componentProcessing>
+        <componentProcessing component="CHEBI:49786" machineryCost="0.0"/>
+      </listOfComponentProcessings>
+    </processingMap>
+    <processingMap id="folding">
+      <constantProcessing/>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="0.1"/>
+        <componentProcessing component="C" machineryCost="0.1"/>
+        <componentProcessing component="D" machineryCost="0.1"/>
+        <componentProcessing component="E" machineryCost="0.1"/>
+        <componentProcessing component="F" machineryCost="0.1"/>
+        <componentProcessing component="G" machineryCost="0.1"/>
+        <componentProcessing component="H" machineryCost="0.1"/>
+        <componentProcessing component="I" machineryCost="0.1"/>
+        <componentProcessing component="K" machineryCost="0.1"/>
+        <componentProcessing component="L" machineryCost="0.1"/>
+        <componentProcessing component="M" machineryCost="0.1"/>
+        <componentProcessing component="N" machineryCost="0.1"/>
+        <componentProcessing component="P" machineryCost="0.1"/>
+        <componentProcessing component="Q" machineryCost="0.1"/>
+        <componentProcessing component="R" machineryCost="0.1"/>
+        <componentProcessing component="S" machineryCost="0.1"/>
+        <componentProcessing component="T" machineryCost="0.1"/>
+        <componentProcessing component="V" machineryCost="0.1"/>
+        <componentProcessing component="W" machineryCost="0.1"/>
+        <componentProcessing component="Y" machineryCost="0.1"/>
+      </listOfComponentProcessings>
+    </processingMap>
+    <processingMap id="transcription">
+      <constantProcessing/>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_atp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="C" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_ctp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="G" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_gtp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="U" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_utp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+      </listOfComponentProcessings>
+    </processingMap>
+    <processingMap id="rna_degradation">
+      <constantProcessing/>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_amp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="C" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_cmp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="G" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_gmp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="U" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_ump_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+      </listOfComponentProcessings>
+    </processingMap>
+    <processingMap id="replication">
+      <constantProcessing/>
+      <listOfComponentProcessings>
+        <componentProcessing component="A" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_datp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="C" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_dctp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="G" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_dgtp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+        <componentProcessing component="T" machineryCost="0.0">
+          <listOfReactants>
+            <speciesReference species="M_dttp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h2o_c" stoichiometry="1.0"/>
+          </listOfReactants>
+          <listOfProducts>
+            <speciesReference species="M_pp_c" stoichiometry="1.0"/>
+            <speciesReference species="M_h_c" stoichiometry="1.0"/>
+          </listOfProducts>
+        </componentProcessing>
+      </listOfComponentProcessings>
+    </processingMap>
+  </listOfProcessingMaps>
+</RBAProcesses>

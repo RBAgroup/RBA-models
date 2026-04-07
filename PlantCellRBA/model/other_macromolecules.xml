@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version 3.0 with RBAML version 2-->
+<!--Model: Arabidopsis thaliana, Organism/Tissue: Arabidopsis thaliana Col-0 (generic cell), Taxon-ID: 3702-->
+<!--Authored by: Anne Goelzer (INRAE)-->
+<!--Copyright of: Copyright (c) 2026-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBAMacromolecules>
+  <listOfComponents/>
+  <listOfMacromolecules/>
+</RBAMacromolecules>

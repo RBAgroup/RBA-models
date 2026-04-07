@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version 2.7 with RBAML version 2-->
+<!--Model: PlantCellRBA – cell, Organism/Tissue: Arabidopsis thaliana – small generic model, Taxon-ID: 3702-->
+<!--Authored by: Anne Goelzer-->
+<!--Copyright of: INRAE-->
+<!--License: CC-BY-NC-->
+<?rbaml version="2"?>
+<RBACustomConstraints>
+  <listOfConstraints>
+    <constraint id="Global_occupation" action="add">
+      <constraintDefinition upperBound="0.0">
+        <listOfVariableReferences>
+          <variableReference variable="Nucleus_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Golgi_apparatus_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Peroxisome_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Peroxisome_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Nucleus_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Endoplasmic_reticulum_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Mitochondrion_outer_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Golgi_apparatus_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Thylakoid_lumen_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Plastid_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Mitochondrion_matrix_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Plastid_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Thylakoid_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Vacuole_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Mitochondrion_inner_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Cell_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Endoplasmic_reticulum_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Cytoplasm_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Mitochondrion_intermembrane_space_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Vacuole_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Secreted_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>           
+        </listOfVariableReferences>
+        <listOfParameterReferences>
+          <parameterReference parameter="amino_acid_concentration" constant_coefficient="-1.0" multiplied_with_growth_rate="false"/>
+        </listOfParameterReferences>
+      </constraintDefinition>
+    </constraint>
+    <constraint id="Rubisco_coupling_constraint" action="add">
+      <constraintDefinition value="0.0">
+        <listOfVariableReferences>
+          <variableReference variable="R_RBO_h" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="R_RBC_h_enzyme" constant_coefficient="-1.0" parameter_coefficient="keff_Rubisco_Oxy" multiplied_with_growth_rate="false"/> 
+        </listOfVariableReferences>
+        <listOfParameterReferences/>
+      </constraintDefinition>
+    </constraint>      
+  </listOfConstraints>
+</RBACustomConstraints>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Escherichia coli K12 WT (temperature dependent), Organism/Tissue: Escherichia coli K12, Taxon-ID: 83333-->
+<!--Authored by: Oliver Bodeit (INRAE)-->
+<!--Copyright of: Copyright (c) 2026-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBACustomConstraints>
+  <listOfConstraints>
+    <constraint id="Global_occupation" action="add">
+      <constraintDefinition upperBound="0.0">
+        <listOfVariableReferences>
+          <variableReference variable="Cell_inner_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Cytoplasm_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Cell_outer_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Periplasm_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+        </listOfVariableReferences>
+        <listOfParameterReferences>
+          <parameterReference parameter="Cell_inner_membrane_density" constant_coefficient="-1.0" multiplied_with_growth_rate="false"/>
+          <parameterReference parameter="Cytoplasm_density" constant_coefficient="-1.0" multiplied_with_growth_rate="false"/>
+          <parameterReference parameter="Cell_outer_membrane_density" constant_coefficient="-1.0" multiplied_with_growth_rate="false"/>
+          <parameterReference parameter="Periplasm_density" constant_coefficient="-1.0" multiplied_with_growth_rate="false"/>
+        </listOfParameterReferences>
+      </constraintDefinition>
+    </constraint>
+  </listOfConstraints>
+</RBACustomConstraints>

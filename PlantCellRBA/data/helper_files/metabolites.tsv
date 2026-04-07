@@ -1,0 +1,125 @@
+ID	NAME	SBML ID	STOICHIOMETRY	CONCENTRATION
+A (ala)	ala	M_ala__L	1	0.00012547
+C (cys)	cys	M_cys__L	1	0.0
+D (asp)	asp	M_asp__L	1	0.00074046
+E (glu)	glu	M_glu__L	1	0.00252729
+F (phe)	phe	M_phe__L	1	0.00076228
+G (gly)	gly	M_gly	1	0.00080032
+H (his)	his	M_his__L	1	0.0
+I (ile)	ile	M_ile__L	1	0.00013197
+K (lys)	lys	M_lys__L	1	0.00029444
+L (leu)	leu	M_leu__L	1	9.706e-05
+M (met)	met	M_met__L	1	0.00026282
+N (asn)	asn	M_asn__L	1	0.00328142
+P (pro)	pro	M_pro__L	1	0.00052737
+Q (gln)	gln	M_gln__L	1	0.00146546
+R (arg)	arg	M_arg__L	1	0.00699522
+S (ser)	ser	M_ser__L	1	0.00083279
+T (thr)	thr	M_thr__L	1	0.00653654
+V (val)	val	M_val__L	1	0.00018079
+W (trp)	trp	M_trp__L	1	0.00033709
+Y (tyr)	tyr	M_tyr__L	1	0.0003057
+ALATRNA	Charged trna ala	M_alatrna	1	0.0
+CYSTRNA	Charged trna cys	M_cystrna	1	0.0
+ASPTRNA	Charged trna asp	M_asptrna	1	0.0
+GLUTRNA	Charged trna glu	M_glutrna	1	0.0
+PHETRNA	Charged trna phe	M_phetrna	1	0.0
+GLYTRNA	Charged trna gly	M_glytrna	1	0.0
+HISTRNA	Charged trna his	M_histrna	1	0.0
+ILETRNA	Charged trna ile	M_iletrna	1	0.0
+LYSTRNA	Charged trna lys	M_lystrna	1	0.0
+LEUTRNA	Charged trna leu	M_leutrna	1	0.0
+METTRNA	Charged trna met	M_mettrna	1	0.0
+ASNTRNA	Charged trna asn	M_asntrna	1	0.0
+PROTRNA	Charged trna pro	M_protrna	1	0.0
+GLNTRNA	Charged trna gln	M_glntrna	1	0.0
+ARGTRNA	Charged trna arg	M_argtrna	1	0.0
+SERTRNA	Charged trna ser	M_sertrna	1	0.0
+THRTRNA	Charged trna thr	M_thrtrna	1	0.0
+VALTRNA	Charged trna val	M_valtrna	1	0.0
+TRPTRNA	Charged trna trp	M_trptrna	1	0.0
+TYRTRNA	Charged trna tyr	M_tyrtrna	1	0.0
+TRNAALA	Uncharged trna ala	M_trnaala	1	4.802666666666667e-05
+TRNACYS	Uncharged trna cys	M_trnacys	1	8.56e-06
+TRNAASP	Uncharged trna asp	M_trnaasp	1	2.2533333333333333e-05
+TRNAGLU	Uncharged trna glu	M_trnaglu	1	2.46e-05
+TRNAPHE	Uncharged trna phe	M_trnaphe	1	1.732e-05
+TRNAGLY	Uncharged trna gly	M_trnagly	1	5.726666666666667e-05
+TRNAHIS	Uncharged trna his	M_trnahis	1	8.853333333333334e-06
+TRNAILE	Uncharged trna ile	M_trnaile	1	2.716e-05
+TRNALYS	Uncharged trna lys	M_trnalys	1	3.2080000000000005e-05
+TRNALEU	Uncharged trna leu	M_trnaleu	1	4.212e-05
+TRNAMET	Uncharged trna met	M_trnamet	1	1.4373333333333334e-05
+TRNAASN	Uncharged trna asn	M_trnaasn	1	2.2533333333333333e-05
+TRNAPRO	Uncharged trna pro	M_trnapro	1	2.0666666666666663e-05
+TRNAGLN	Uncharged trna gln	M_trnagln	1	2.46e-05
+TRNAARG	Uncharged trna arg	M_trnaarg	1	2.765333333333333e-05
+TRNASER	Uncharged trna ser	M_trnaser	1	2.017333333333333e-05
+TRNATHR	Uncharged trna thr	M_trnathr	1	2.372e-05
+TRNAVAL	Uncharged trna val	M_trnaval	1	3.956e-05
+TRNATRP	Uncharged trna trp	M_trnatrp	1	5.32e-06
+TRNATYR	Uncharged trna tyr	M_trnatyr	1	1.2893333333333332e-05
+FMETTRNA	Charged trna fmet	M_fmettrna	1	0.0
+ATP	ATP	M_atp	1	0.0
+CTP	CTP	M_ctp	1	0.0
+GTP	GTP	M_gtp	1	0.0
+UTP	UTP	M_utp	1	0.0
+ADP	ADP	M_adp	1	0.0
+CDP	CDP	M_cdp	1	0.0
+GDP	GDP	M_gdp	1	0.0
+UDP	UDP	M_udp	1	0.0
+AMP	AMP	M_amp	1	0.0
+CMP	CMP	M_cmp	1	0.0
+GMP	GMP	M_gmp	1	0.0
+UMP	UMP	M_ump	1	0.0
+dATP	dATP	M_datp	1	0.0
+dCTP	dCTP	M_dctp	1	0.0
+dGTP	dGTP	M_dgtp	1	0.0
+dTTP	dTTP	M_dttp	1	0.0
+PPi	Pyrophosphate	M_ppi	1	0.0
+Pi	Phosphate	M_pi	1	0.0
+H	Proton	M_h	1	0.0
+K	Potassium	M_k	1	0.0
+H2O	H2O	M_h2o	1	0.0
+CHEBI:60240	a divalent metal cation	M_mg2	1	0.0
+CHEBI:597326	pyridoxal 5'-phosphate	M_pydx5p	1	0.0
+CHEBI:49883	[4Fe-4S] cluster	M_fe2	4	0.0
+CHEBI:29035	Mn(2+)	M_mn2	1	0.0
+CHEBI:29103	K(+)	M_k	1	0.0
+CHEBI:29108	Ca(2+)	M_ca2	1	0.0
+CHEBI:18420	Mg(2+)	M_mg2	1	0.0
+CHEBI:58937	thiamine diphosphate	[MISSING]	1	0.0
+CHEBI:48828	Co(2+)	M_cobalt2	1	0.0
+CHEBI:29033	Fe(2+)	M_fe2	1	0.0
+CHEBI:29105	Zn(2+)	M_zn2	1	0.0
+CHEBI:57692	FAD	M_fad	1	0.0
+CHEBI:30413	heme	M_pheme	1	0.0
+CHEBI:71302	Mo-molybdopterin	[MISSING]	1	0.0
+CHEBI:21137	[3Fe-4S] cluster	M_fe2	3	0.0
+CHEBI:58210	FMN	M_fmn	1	0.0
+CHEBI:57540	NAD(+)	M_nad	1	0.0
+CHEBI:60052	siroheme	M_sheme	1	0.0
+CHEBI:190135	[2Fe-2S] cluster	M_fe2	2	0.0
+CHEBI:83088	(R)-lipoate	[MISSING]	1	0.0
+CHEBI:29036	Cu(2+)	M_cu	1	0.0
+CHEBI:25213	a metal cation	M_mg2	1	0.0
+CHEBI:60344	heme b	M_pheme	1	0.0
+CHEBI:24875	Fe cation	M_fe2	1	0.0
+CHEBI:60342	dipyrromethane	[MISSING]	1	0.0
+CHEBI:29101	Na(+)	[MISSING]	1	0.0
+CHEBI:30408	iron-sulfur cluster	M_fe2	1	0.0
+CHEBI:57618	FMNH2	M_fmn	1	0.0
+CHEBI:49786	Ni(2+)	M_ni2	1	0.0
+NO3	NO3	M_no3	1	1.13
+Tre	Trehalose	M_tre	1	0.00057736
+SHK	Shikimate	M_skm	1	0.00037924
+SUC	Sucrose	M_sucr	1	0.03066837
+ORN	Ornithine	M_orn	1	0.00158654
+GABA	Gaba	M_4abut	1	9.401e-05
+FRC	Fructose	M_fru	1	0.0120349
+GLC	Glucose	M_glc__D	1	0.01847868
+FUM	Fumarate	M_fum	1	0.06720727
+UREA	Urea	M_urea	1	0.00284043
+MAL	Malate	M_mal__L	1	0.05099641
+MAS	Maltose	M_malt	1	0.00260958
+CHEBI:23378	Cu cation	M_cu	1	0.0

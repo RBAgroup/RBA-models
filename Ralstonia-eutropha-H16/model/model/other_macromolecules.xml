@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Ralstonia eutropha H16, Organism/Tissue: Ralstonia eutropha, Taxon-ID: 381666-->
+<!--Authored by: Michael Jahn-->
+<!--Copyright of: Copyright (c) 2021-2026-->
+<!--License: cc-by (https://creativecommons.org/licenses/by/4.0/deed.en)-->
+<?rbaml version="2"?>
+<RBAMacromolecules>
+  <listOfComponents/>
+  <listOfMacromolecules/>
+</RBAMacromolecules>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version 3.0 with RBAML version 2-->
+<!--Model: Arabidopsis thaliana, Organism/Tissue: Arabidopsis thaliana Col-0 (generic cell), Taxon-ID: 3702-->
+<!--Authored by: Anne Goelzer (INRAE)-->
+<!--Copyright of: Copyright (c) 2026-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBADna>
+  <listOfComponents>
+    <component id="A" name="Adenosine residue" type="Nucleotide" weight="0"/>
+    <component id="C" name="Cytosine residue" type="Nucleotide" weight="0"/>
+    <component id="G" name="Guanine residue" type="Nucleotide" weight="0"/>
+    <component id="T" name="Thymine residue" type="Nucleotide" weight="0"/>
+  </listOfComponents>
+  <listOfMacromolecules>
+    <macromolecule id="dna_loc_Nucleus" compartment="Nucleus" half_life="default_dna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="0.3199"/>
+        <componentReference component="C" stoichiometry="0.1804"/>
+        <componentReference component="G" stoichiometry="0.1802"/>
+        <componentReference component="T" stoichiometry="0.3195"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="dna_loc_Mitochondrion_matrix" compartment="Mitochondrion_matrix" half_life="default_dna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="0.3199"/>
+        <componentReference component="C" stoichiometry="0.1804"/>
+        <componentReference component="G" stoichiometry="0.1802"/>
+        <componentReference component="T" stoichiometry="0.3195"/>
+      </composition>
+    </macromolecule>
+    <macromolecule id="dna_loc_Plastid" compartment="Plastid" half_life="default_dna_half_life">
+      <composition>
+        <componentReference component="A" stoichiometry="0.3199"/>
+        <componentReference component="C" stoichiometry="0.1804"/>
+        <componentReference component="G" stoichiometry="0.1802"/>
+        <componentReference component="T" stoichiometry="0.3195"/>
+      </composition>
+    </macromolecule>
+  </listOfMacromolecules>
+</RBADna>

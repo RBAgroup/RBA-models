@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Bacillus subtilis 168 WT, Organism/Tissue: Bacillus subtilis 168, Taxon-ID: 224308-->
+<!--Authored by: Anne Goelzer (INRAE)-->
+<!--Copyright of: Copyright (c) 2019-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBACustomConstraints>
+  <listOfConstraints>
+    <constraint id="Global_occupation" action="add">
+      <constraintDefinition upperBound="0.0">
+        <listOfVariableReferences>
+          <variableReference variable="Cell_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Cytoplasm_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+        </listOfVariableReferences>
+        <listOfParameterReferences>
+          <parameterReference parameter="amino_acid_concentration" constant_coefficient="-1.0" multiplied_with_growth_rate="false"/>
+        </listOfParameterReferences>
+      </constraintDefinition>
+    </constraint>
+  </listOfConstraints>
+</RBACustomConstraints>

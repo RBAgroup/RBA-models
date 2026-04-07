@@ -1,0 +1,15 @@
+Date_first_model_generation	2026-02-12 13:53:55.304159
+Date_last_model_generation	2026-02-13 08:30:43.659583
+RBApy_version_model_generation	3.0
+Date_download_proteome_annotation	2026-02-12 13:54:00
+Date_of_model_update_to_v3_or_higher	N/A
+RBApy_version_model_update	N/A
+RBAML_version	2
+Model	Arabidopsis thaliana (temperature dependent)
+Organism/Tissue	Arabidopsis thaliana Col-0 (generic cell)
+Taxon_ID	3702
+Author(s)	Anne Goelzer (INRAE)
+Copyright_holder	Copyright (c) 2026
+License	cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)
+Localised_Macromolecules	True
+Macromolecule_location_separator	_loc_

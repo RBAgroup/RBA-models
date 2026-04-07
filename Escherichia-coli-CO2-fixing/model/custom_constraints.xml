@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by RBApy version N/A with RBAML version 2-->
+<!--Model: Escherichia coli K12 (CO2-fixing), Organism/Tissue: Escherichia coli K12, Taxon-ID: 83333-->
+<!--Authored by: Ana Bulovic (INRAE)-->
+<!--Copyright of: Copyright (c) 2019-->
+<!--License: cc-by-nc (https://creativecommons.org/licenses/by-nc/4.0/)-->
+<?rbaml version="2"?>
+<RBACustomConstraints>
+  <listOfConstraints>
+    <constraint id="Global_occupation" action="add">
+      <constraintDefinition upperBound="0.0">
+        <listOfVariableReferences>
+          <variableReference variable="Cell_inner_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Cytoplasm_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Cell_outer_membrane_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+          <variableReference variable="Periplasm_occupation" constant_coefficient="1.0" multiplied_with_growth_rate="false"/>
+        </listOfVariableReferences>
+        <listOfParameterReferences>
+          <parameterReference parameter="amino_acid_concentration" constant_coefficient="-1.0" multiplied_with_growth_rate="false"/>
+        </listOfParameterReferences>
+      </constraintDefinition>
+    </constraint>
+  </listOfConstraints>
+</RBACustomConstraints>

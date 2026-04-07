@@ -6,7 +6,6 @@ and parameters estimated in (https://doi.org/10.1016/j.ymben.2015.10.003).
 
 ## Generation of the XML model
 
-
 The *Bacillus subtilis* model was generated in a step-wise manner,
 based on information from a hand-curated model.
 
